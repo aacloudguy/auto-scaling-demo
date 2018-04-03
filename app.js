@@ -182,4 +182,4 @@ new CronJob('* * * * * *', function() {
 // Check for average CPU usage changes every 5 seconds
 new CronJob('*/5 * * * * *', function() {
     getUsage();
-}, null, true, "America/CST");
+}, null, true, "America/Los_Angeles");
