@@ -1,8 +1,4 @@
 ---
-declared-services:
-  AA-OpsTraining-ScaleSvc-0001:
-    label: Auto-Scaling
-    plan: free
 applications:
 - name: AA-OpsTraining-ScaleApp-0001
   framework: node
