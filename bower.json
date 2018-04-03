@@ -1,6 +1,6 @@
 {
   "name": "auto-scaling-demo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": false,
   "ignore": [
     "**/.*",
@@ -8,8 +8,8 @@
     "public/vendor"
   ],
   "dependencies": {
-    "bootstrap": "3.3.x",
-    "jquery": "2.2.x",
-    "socket.io-client": "1.4.x"
+    "bootstrap": "*",
+    "jquery": "*",
+    "socket.io-client": "*"
   }
 }

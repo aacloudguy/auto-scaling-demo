@@ -1,6 +1,6 @@
 {
   "name": "auto-scaling-demo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": false,
   "main": "app.js",
   "scripts": {
@@ -15,19 +15,19 @@
     "url": "https://github.com/IBM-Bluemix/auto-scaling-demo.git"
   },
   "dependencies": {
-    "express": "4.13.x",
-    "body-parser": "1.14.*",
-    "method-override": "2.3.x",
-    "dustjs-linkedin": "2.7.x",
-    "consolidate": "0.14.x",
-    "socket.io": "1.4.x",
-    "cron": "1.1.x",
-    "usage": "0.7.x",
-    "commander": "2.9.x",
-    "http-post": "0.1.x",
-    "bower": "1.6.x",
+    "express": "*",
+    "body-parser": "*",
+    "method-override": "*",
+    "dustjs-linkedin": "*",
+    "consolidate": "*",
+    "socket.io": "*",
+    "cron": "*",
+    "usage": "*",
+    "commander": "*",
+    "http-post": "*",
+    "bower": "*",
     "bluemix-autoscaling-agent": "*",
-    "cf-deployment-tracker-client": "0.0.x"
+    "cf-deployment-tracker-client": "*"
   },
   "author": [
     {

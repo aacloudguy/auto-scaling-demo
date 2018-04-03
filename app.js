@@ -13,9 +13,6 @@ var express = require('express'),
   usage = require("usage"),
   CronJob = require("cron").CronJob;
 
-//---Deployment Tracker---------------------------------------------------------
-require("cf-deployment-tracker-client").track();
-
 //---Set Constant Vars----------------------------------------------------------
 var ZERO = 0,
   ONE_TENTH = .1,
@@ -185,4 +182,4 @@ new CronJob('* * * * * *', function() {
 // Check for average CPU usage changes every 5 seconds
 new CronJob('*/5 * * * * *', function() {
     getUsage();
-}, null, true, "America/Los_Angeles");
+}, null, true, "America/CST");
