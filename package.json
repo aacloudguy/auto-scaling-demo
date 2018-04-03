@@ -5,7 +5,6 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "postinstall": "bower install --alow-root"
   },
   "engines": {
     "node": "4.0.0"
@@ -21,14 +20,10 @@
     "usage": "*",
     "commander": "*",
     "http-post": "*",
-    "bower": "*",
+    "bootstrap": "*",
+    "jquery": "*",
+    "socket.io-client": "*",
     "bluemix-autoscaling-agent": "*"
   },
-  "author": [
-    {
-      "name": "Jake Peyser",
-      "email": "jepeyser@us.ibm.com"
-    }
-  ],
   "license": "Apache-2.0"
 }
