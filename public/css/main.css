@@ -1,0 +1,165 @@
+html, body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 100%;
+    background-color: #103548;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+.container-fluid {
+  min-height: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+  padding: 0px;
+}
+
+.header {
+  position: fixed;
+  z-index: 6000;
+  top: 0;
+  width: 100%;
+  display: flex;
+  height: 3.75rem;
+  background-color: #152934;
+  line-height: 3.75rem;
+  color: white;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 5%;
+}
+
+@media screen and (min-width: 400px) {
+  .header {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+.logo {
+  font-size: 1.1rem;
+  position: absolute;
+  overflow: hidden;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  -webkit-transform: translateX(-300px);
+  transform: translateX(-300px)
+}
+
+@media screen and (min-width: 400px) {
+  .logo {
+    position: relative;
+    padding-right: 1em;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    text-decoration: none;
+    font-weight: 200;
+  }
+}
+
+.logo-title {
+  padding-left: 3px;
+}
+
+.instance-div {
+  position: relative;
+  margin-left: auto;
+  font-size: 1.1rem;
+}
+
+.instance-num {
+  font-weight: bold;
+}
+
+#gauge-background {
+  margin-top: 3.75em;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #244556;
+}
+
+.gauge-container {
+  background: #2C5368;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+
+#mem-container {
+  margin-top: 15px;
+}
+
+.gauge-header {
+  font-size: 2rem;
+  padding-top: 8px;
+  margin-top: 0px;
+  color: white;
+}
+
+.threshold {
+  font-size: .9rem;
+  color: white;
+}
+
+p {
+  margin: 0px;
+}
+
+.gauge-value-hex {
+  content: url("/images/hexagon.svg");
+  width: 50px;
+  height: 50px;
+}
+
+.gauge-value {
+  font-size: 1.5rem;
+  color: white;
+  margin-top: -36px;
+  padding-bottom: 20px;
+}
+
+.gauge {
+  margin: auto;
+  width: 300px;
+  height: 140px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    font-size: 15px;
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer, .push {
+  height: 40px;
+  clear: both;
+}
+
+.muted, .credit {
+  margin-top: 0px;
+}
+
+.footer, a {
+  color: white;
+}
+
+a:hover {
+  color: #5596E6;
+}
