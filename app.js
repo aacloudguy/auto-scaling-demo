@@ -10,6 +10,7 @@ var express = require('express'),
   consolidate = require("consolidate"),
   os = require("os"),
   util = require("util"),
+  usage = require("usage"),
   CronJob = require("cron").CronJob;
 
 //---Set Constant Vars----------------------------------------------------------
