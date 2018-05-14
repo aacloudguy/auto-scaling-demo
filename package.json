@@ -1,29 +1,38 @@
 {
-  "name": "auto-scaling-demo",
-  "version": "2.0.0",
+  "name": "AA-OpsTraining-ASD-0001",
+  "version": "1.0.0",
   "private": false,
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "postinstall": "bower install --allow-root"
   },
   "engines": {
-    "node": "4.0.0"
+    "node": "0.12.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM-Bluemix/auto-scaling-demo.git"
   },
   "dependencies": {
-    "express": "*",
-    "body-parser": "*",
-    "method-override": "*",
-    "dustjs-linkedin": "*",
-    "consolidate": "*",
-    "socket.io": "*",
-    "cron": "*",
-    "usage": "*",
-    "commander": "*",
-    "http-post": "*",
-    "bootstrap": "*",
-    "jquery": "*",
-    "socket.io-client": "*",
-    "bluemix-autoscaling-agent": "*"
+    "express": "4.13.x",
+    "body-parser": "1.14.*",
+    "method-override": "2.3.x",
+    "dustjs-linkedin": "2.7.x",
+    "consolidate": "0.14.x",
+    "socket.io": "1.4.x",
+    "cron": "1.1.x",
+    "usage": "0.7.x",
+    "commander": "2.9.x",
+    "http-post": "0.1.x",
+    "bower": "1.6.x",
+    "cf-deployment-tracker-client": "0.0.x"
   },
+  "author": [
+    {
+      "name": "Jake Peyser",
+      "email": "jepeyser@us.ibm.com"
+    }
+  ],
   "license": "Apache-2.0"
 }

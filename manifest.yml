@@ -1,6 +1,6 @@
 ---
 applications:
-- name: AA-OpsTraining-ScaleApp-0001
+- name: AA-OpsTraining-ASD-0001
   framework: node
   runtime: node12
   memory: 128M
@@ -8,4 +8,4 @@ applications:
   path: .
   command: node app.js
   services:
-  - AA-OpsTraining-ScaleSvc-0001
+  - Auto-Scaling-0001

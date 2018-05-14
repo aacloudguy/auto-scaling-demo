@@ -1,5 +1,3 @@
-var agent = require('bluemix-autoscaling-agent');
-
 var express = require('express'),
   bodyParser     = require("body-parser"),
   methodOverride = require("method-override"),
@@ -12,6 +10,9 @@ var express = require('express'),
   util = require("util"),
   usage = require("usage"),
   CronJob = require("cron").CronJob;
+
+//---Deployment Tracker---------------------------------------------------------
+require("cf-deployment-tracker-client").track();
 
 //---Set Constant Vars----------------------------------------------------------
 var ZERO = 0,
