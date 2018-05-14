@@ -6,9 +6,9 @@ the application contains visual gauges to indicate changing environmental perfor
 
 ## Running the app on Bluemix
 
-1. If you do not already have a Bluemix account, [sign up here][bluemix_signup_url]
+1. If you do not already have a Bluemix account, sign up with a personal account. This email name cannot end in "@aa.com". You don't need a credit card, but a personal account should never use American Airlines code or data in any way. If you require a corporate IBM Cloud account, contact your IBM Cloud Account owner for access.
 
-2. Download and install the [Cloud Foundry CLI][cloud_foundry_url]
+2. Download and install the Cloud Foundry CLI
 
 3. Clone the app to your local environment from your terminal using the following command
 
@@ -18,7 +18,7 @@ the application contains visual gauges to indicate changing environmental perfor
 
 4. cd into this newly created directory
 
-5. Edit the manifest.yml file and change the <application-host> parameter to something unique. For Ops Training class, use your Student ID number.
+5. Edit the manifest.yml file and change the <application-host> parameter to something unique. For Ops Training class, use your Student ID number. This number eppears in two locations in this file.
 
   ```
   applications:
@@ -29,6 +29,8 @@ the application contains visual gauges to indicate changing environmental perfor
     instances: 1
   ```
   The host you use will determinate your application url (e.g. `<application-name>.mybluemix.net`)
+
+NOTE:   You must also edit the bower.json and package.json files to replace the number there. You only need to edit the second line of each file.
 
 6. Connect to Bluemix using the CF CLI and follow the prompts to log in.
 
@@ -58,7 +60,7 @@ the application contains visual gauges to indicate changing environmental perfor
 	* Cooldown period for scaling out: `600 seconds`
 	* Cooldown period for scaling in: `600 seconds`
 
-And voila! You now have your very own instance of Auto Scaling Demo running on Bluemix. To test it out, run a few load tests on your app using a service like [BlazeMeter][blazemeter_url] or jmeter from the CLI. If you want a more in depth tutorial on how to use and test auto scaling with this app, check out the [Handle the Unexpected with Bluemix Auto Scaling][auto_scaling_blog] blog post on developerWorks.
+And voila! You now have your very own instance of Auto Scaling Demo running on Bluemix. To test it out, run a few load tests on your app using a service like BlazeMeter, or jmeter when using the CLI. If you want a more in depth tutorial on how to use and test auto scaling with this app, check out the Handle the Unexpected with Bluemix Auto Scaling blog post on developerWorks.
 
 
 ### Troubleshooting
