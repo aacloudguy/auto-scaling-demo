@@ -1,6 +1,6 @@
 # auto-scaling-demo Overview
 
-The Auto Scaling Demo provides a visual demonstration of the [Auto-Scaling service][auto_scaling_service_url] for Cloud Foundry apps in [IBM Bluemix][bluemix_url]. It helps to demonstrate how policies defined in the Auto-Scaling service can horizontally scale any application based on CPU utilization and memory usage. To showcase these features,
+The Auto Scaling Demo provides a visual demonstration of the Auto-Scaling service for Cloud Foundry apps in IBM Cloud [also known as Bluemix]. It helps to demonstrate how policies defined in the Auto-Scaling service can horizontally scale any application based on CPU utilization and memory usage. To showcase these features,
 the application contains visual gauges to indicate changing environmental performance metrics.
 
 
