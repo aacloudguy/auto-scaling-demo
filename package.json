@@ -15,19 +15,19 @@
     "url": "https://github.com/aacloudguy/auto-scaling-demo.git"
   },
   "dependencies": {
-    "bluemix-autoscaling-agent": "*",
-    "express": "4.13.x",
+    "bluemix-autoscaling-agent": "^1.0.13",
     "body-parser": "1.14.*",
-    "method-override": "2.3.x",
-    "dustjs-linkedin": "2.7.x",
-    "consolidate": "0.14.x",
-    "socket.io": "1.4.x",
-    "cron": "1.1.x",
-    "usage": "0.7.x",
-    "commander": "2.9.x",
-    "http-post": "0.1.x",
     "bower": "1.6.x",
-    "cf-deployment-tracker-client": "0.0.x"
+    "cf-deployment-tracker-client": "0.0.x",
+    "commander": "2.9.x",
+    "consolidate": "0.14.x",
+    "cron": "1.1.x",
+    "dustjs-linkedin": "2.7.x",
+    "express": "4.13.x",
+    "http-post": "0.1.x",
+    "method-override": "2.3.x",
+    "socket.io": "1.4.x",
+    "usage": "0.7.x"
   },
   "author": [
     {
