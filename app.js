@@ -23,8 +23,6 @@ var express = require('express'),
   usage = require("usage"),
   CronJob = require("cron").CronJob;
 
-//---Deployment Tracker---------------------------------------------------------
-require("cf-deployment-tracker-client").track();
 
 //---Set Constant Vars----------------------------------------------------------
 var ZERO = 0,
