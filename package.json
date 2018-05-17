@@ -15,7 +15,7 @@
     "url": "https://github.com/aacloudguy/auto-scaling-demo.git"
   },
   "dependencies": {
-    "bluemix-autoscaling-agent"; "*",
+    "bluemix-autoscaling-agent": "*",
     "express": "4.13.x",
     "body-parser": "1.14.*",
     "method-override": "2.3.x",
