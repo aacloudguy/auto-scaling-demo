@@ -4,7 +4,7 @@
   "private": false,
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node -r bluemix-autoscaling-agent --max-old-space=600 app.js",
     "postinstall": "bower install --allow-root"
   },
   "engines": {
@@ -12,9 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM-Bluemix/auto-scaling-demo.git"
+    "url": "https://github.com/aacloudguy/auto-scaling-demo.git"
   },
   "dependencies": {
+    "bluemix-autoscaling-agent"; "*",
     "express": "4.13.x",
     "body-parser": "1.14.*",
     "method-override": "2.3.x",
