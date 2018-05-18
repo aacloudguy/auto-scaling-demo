@@ -1,9 +1,9 @@
 //---Add Bluemix Auto-scaling agent - must be first
 //---But app metrics must be first
 //---Add Appmetrics due to startup error
-require('appmetrics');
+var appmetrics = require('appmetrics');
 appmetrics.monitor();
-require('bluemix-autoscaling-agent');
+var agent = require('bluemix-autoscaling-agent');
 var http = require('http');
 var server = http.createServer(function handler(req, res) {
  res.end('Hello!');
