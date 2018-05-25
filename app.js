@@ -2,13 +2,13 @@
 //---But app metrics must be first
 //---Add Appmetrics due to startup error
 var appmetrics = require('appmetrics');
-appmetrics.monitor();
+//appmetrics.monitor();
 var agent = require('bluemix-autoscaling-agent');
-var http = require('http');
-var server = http.createServer(function handler(req, res) {
- res.end('Hello!');
- }).listen(process.env.PORT || 3000);
-console.log('App is listening on port 3000');
+//var http = require('http');
+//var server = http.createServer(function handler(req, res) {
+// res.end('Hello!');
+// }).listen(process.env.PORT || 3000);
+//console.log('App is listening on port 3000');
 //
 var express = require('express'),
   bodyParser     = require("body-parser"),
