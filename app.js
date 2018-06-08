@@ -1,5 +1,5 @@
 //---Add New Relic agent - must be firster
-//var newrelic = require('newrelic');
+require('newrelic');
 //---Add Bluemix Auto-scaling agent - must be first, but now after New Relic
 //---But app metrics must be even more  first
 //---Add Appmetrics due to startup error
