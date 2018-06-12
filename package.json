@@ -26,7 +26,7 @@
     "express": "4.13.x",
     "http-post": "0.1.x",
     "method-override": "2.3.x",
-    "newrelic": "^4.1.4",
+    "newrelic": "4.1.4",
     "socket.io": "1.4.x",
     "usage": "0.7.x"
   },

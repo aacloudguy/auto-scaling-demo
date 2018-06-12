@@ -8,4 +8,4 @@ applications:
   path: .
   command: node app.js
   services:
-  - Auto-Scaling-0001
+  - AA-AutoScaling-0001
